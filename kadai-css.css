@@ -1,0 +1,22 @@
+#wrapper {
+    overflow: hidden;
+    width: 1000px;
+}
+header {
+    width: 1000px;
+    background-color:#ffcccc;
+}
+#menu {
+    background-color: #ccccff;
+    width: 300px;
+    float: right;
+}
+#main{
+    background-color:#ccffcc;
+    width: 700px;
+    float: left;
+}
+footer{
+    width: 1000px;
+    background-color:#ffccff;
+}  

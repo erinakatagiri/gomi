@@ -1,0 +1,21 @@
+body{
+    width: 2000px;
+    height: 2000px;
+}
+header{
+    font-size: 30px;
+    color: #90ee90;
+    width: 2000px;
+    float: right;
+}
+header img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 100px;
+}
+#main_visual{
+    width: 1500px;
+    text-align: center;
+    margin-top: 500px;
+}
