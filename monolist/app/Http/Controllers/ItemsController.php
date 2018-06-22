@@ -24,6 +24,7 @@ use \App\Item;
             ]);
 
             // Creating "Item" instance to make it easy to handle.（not saving）
+            
             foreach ($rws_response->getData()['Items'] as $rws_item) {
                 $item = new Item();
                 $item->code = $rws_item['Item']['itemCode'];
@@ -44,12 +45,14 @@ use \App\Item;
     {
       $item = Item::find($id);
       $want_users = $item->want_users;
+      $have_users = $item->have_users;
 
       return view('items.show', [
           'item' => $item,
           'want_users' => $want_users,
+          'have_users' => $have_users,
       ]);
     }
   }
   
-  ?>
+ 
